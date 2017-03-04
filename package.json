@@ -1,0 +1,29 @@
+{
+  "name": "rpihomede",
+  "version": "1.0.1",
+  "description": "A rasperry pi HUB built for MQTT and XBEE serial read event driven.",
+  "main": "rpiIOT.js",
+  "dependencies": {
+    "asyncawait": "^1.0.6",
+    "ip": "^1.1.4",
+    "mosca": "^2.2.0",
+    "natural": "^0.4.0",
+    "node-hue-api": "^2.3.0",
+    "redis": "^2.6.2",
+    "rx": "^4.1.0",
+    "serialport": "^4.0.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "npm test"
+  },
+  "keywords": [
+    "mqtt",
+    "philips-hue",
+    "iot",
+    "home automation",
+    "server"
+  ],
+  "author": "Sorin Albu-Irimies",
+  "license": "MIT"
+}
